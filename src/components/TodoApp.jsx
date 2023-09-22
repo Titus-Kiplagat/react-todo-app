@@ -1,9 +1,12 @@
+import TodosLogic from "./TodosLogic";
+
 const TodoApp = () => {
   return (
-    <div>
+    <>
       <h1>Hello world!</h1>
       <p>I am in a React Component!</p>
-    </div>
+      <TodosLogic />
+    </>
   );
 };
 export default TodoApp;
